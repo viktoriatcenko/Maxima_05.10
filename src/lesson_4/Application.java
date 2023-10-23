@@ -76,12 +76,12 @@ public class Application {
 
         // 10         15      20                                             40
 
-//        for (int i = 10; i <= 40; i++) {
-//
-//            if (i < 15 || i > 20) {
-//                System.out.println(i);
-//            }
-//        }
+        for (int i = 10; i <= 40; i++) {
+
+            if (i < 15 || i > 20) {
+                System.out.println(i);
+            }
+        }
 
         int count = 10;
 
@@ -89,9 +89,6 @@ public class Application {
             System.out.println(count + "...");
             count--;
         }
-
-
-
 
     }
 }
