@@ -41,5 +41,10 @@ public class Main {
         System.out.println("I have the dog. His name is " + barsik.getName() +
                 ". He is very fast. His speed is " + barsik.getSpeed() +
                 ". Bit he is dwarf. His weight is " + barsik.getHeight() + "His friend is " + barsik.getFriend().getName());
+
+
+
+
+        boris.printName();
     }
 }

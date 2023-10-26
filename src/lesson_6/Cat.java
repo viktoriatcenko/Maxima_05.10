@@ -2,8 +2,8 @@ package lesson_6;
 
 public class Cat {
     // field - поле класса
-    private String name;
-    private int age;
+    String name;
+    int age;
     private String breed;
     private String color;
 
@@ -70,4 +70,9 @@ public class Cat {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void printName(){
+        System.out.println("My name is " + this.name);
+    }
+
 }
