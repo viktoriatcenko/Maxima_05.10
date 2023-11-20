@@ -4,7 +4,7 @@ public class Cat extends Animal {
     private String catName;
 
     public Cat(String name, String catName) {
-        super(name);
+//        super(name);
         this.catName = catName;
     }
 
@@ -16,9 +16,11 @@ public class Cat extends Animal {
         System.out.println("I'm sleeping 18 hours at day...");
     }
 
-    @Override
-    public void makeNoise() {
-        super.makeNoise();
-        System.out.println("Cat is saying meow...");
-    }
+//    @Override
+//    public void makeNoise() {
+//        super.makeNoise();
+//        System.out.println("Cat is saying meow...");
+//    }
+
+
 }
