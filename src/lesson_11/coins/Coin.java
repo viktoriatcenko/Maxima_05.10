@@ -1,11 +1,11 @@
 package lesson_11.coins;
 
-public class Coin implements Comparable<Coin> {
+public class Coin extends Object implements Comparable<Coin> {
     // fields
-    private int nominal;
-    private double diameter;
-    private String country;
-    private int year;
+    public int nominal;
+    public double diameter;
+    public String country;
+    public int year;
 
     // constructor
 
