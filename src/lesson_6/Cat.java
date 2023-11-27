@@ -1,6 +1,8 @@
 package lesson_6;
 
-public class Cat {
+import lesson_6.animals.Animal;
+
+public class Cat extends Animal {
     // field - поле класса
     String name;
     int age;
@@ -8,6 +10,11 @@ public class Cat {
     private String color;
 
     // constructor - конструктор
+
+    public Cat(String name, String name1) {
+        super(name);
+        this.name = name1;
+    }
 
 
     public Cat() {
@@ -17,10 +24,6 @@ public class Cat {
         this.name = name;
     }
 
-    public Cat(String breed, String color) {
-        this.breed = breed;
-        this.color = color;
-    }
 
     public Cat(int age) {
         this.age = age;
@@ -75,4 +78,13 @@ public class Cat {
         System.out.println("My name is " + this.name);
     }
 
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", breed='" + breed + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
