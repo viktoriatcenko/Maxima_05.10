@@ -1,11 +1,25 @@
 package lesson_15;
 
 import lesson_11.coins.Coin;
+import lesson_8.singleton.Cat;
 
 import java.lang.reflect.Field;
+import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException {
+        Cat pushokSeryi = Cat.getCat();
+
+
+
+        System.out.println(pushokSeryi.getName());
+        System.out.println(pushokSeryi.getName());
+        System.out.println(pushokSeryi.getName());
+
+        Cat pushokBelyi = Cat.getCat();
+
+
         // Название класса
         // Название пакета
         // Поля
@@ -46,7 +60,8 @@ public class Main {
             declaredField.set(String.class, "newValue");
         }
 
-        System.out.println();
+
+
     }
 }
 

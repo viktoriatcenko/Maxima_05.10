@@ -11,7 +11,8 @@ public class Cat {
 
     public static Cat getCat() {
         if (cat == null) {
-            return new Cat();
+            cat = new Cat();
+            return cat;
         }
         return cat;
     }
