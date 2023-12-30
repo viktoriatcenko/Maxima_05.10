@@ -1,0 +1,64 @@
+	cards[0] = new CardBJ("Двойка Трефа", 2);
+        cards[1] = new CardBJ("Двойка Черви", 2);
+        cards[2] = new CardBJ("Двойка Бубны", 2);
+        cards[3] = new CardBJ("Двойка Пики", 2);
+
+        cards[4] = new CardBJ("Тройка Трефа", 3);
+        cards[5] = new CardBJ("Тройка Черви", 3);
+        cards[6] = new CardBJ("Тройка Бубны", 3);
+        cards[7] = new CardBJ("Тройка Пики", 3);
+
+        cards[8] = new CardBJ("Четверка Трефа", 4);
+        cards[9] = new CardBJ("Четверка Черви", 4);
+        cards[10] = new CardBJ("Четверка Бубны", 4);
+        cards[11] = new CardBJ("Четверка Пики", 4);
+
+        cards[12] = new CardBJ("Пятерка Трефа", 5);
+        cards[13] = new CardBJ("Пятерка Черви", 5);
+        cards[14] = new CardBJ("Пятерка Бубны", 5);
+        cards[15] = new CardBJ("Пятерка Пики", 5);
+
+        cards[16] = new CardBJ("Шестерка Трефа", 6);
+        cards[17] = new CardBJ("Шестерка Черви", 6);
+        cards[18] = new CardBJ("Шестерка Бубны", 6);
+        cards[19] = new CardBJ("Шестерка Пики", 6);
+
+        cards[20] = new CardBJ("Семерка Трефа", 7);
+        cards[21] = new CardBJ("Семерка Черви", 7);
+        cards[22] = new CardBJ("Семерка Бубны", 7);
+        cards[23] = new CardBJ("Семерка Пики", 7);
+
+        cards[24] = new CardBJ("Восьмерка Трефа", 8);
+        cards[25] = new CardBJ("Восьмерка Черви", 8);
+        cards[26] = new CardBJ("Восьмерка Бубны", 8);
+        cards[27] = new CardBJ("Восьмерка Пики", 8);
+
+        cards[28] = new CardBJ("Девятка Трефа", 9);
+        cards[29] = new CardBJ("Девятка Черви", 9);
+        cards[30] = new CardBJ("Девятка Бубны", 9);
+        cards[31] = new CardBJ("Девятка Пики", 9);
+
+        cards[32] = new CardBJ("Десятка Трефа", 10);
+        cards[33] = new CardBJ("Десятка Черви", 10);
+        cards[34] = new CardBJ("Десятка Бубны", 10);
+        cards[35] = new CardBJ("Десятка Пики", 10);
+
+        cards[36] = new CardBJ("Валет Трефа", 2);
+        cards[37] = new CardBJ("Валет Черви", 2);
+        cards[38] = new CardBJ("Валет Бубны", 2);
+        cards[39] = new CardBJ("Валет Пики", 2);
+
+        cards[40] = new CardBJ("Дама Трефа", 3);
+        cards[41] = new CardBJ("Дама Черви", 3);
+        cards[42] = new CardBJ("Дама Бубны", 3);
+        cards[43] = new CardBJ("Дама Пики", 3);
+
+        cards[44] = new CardBJ("Король Трефа", 4);
+        cards[45] = new CardBJ("Король Черви", 4);
+        cards[46] = new CardBJ("Король Бубны", 4);
+        cards[47] = new CardBJ("Король Пики", 4);
+
+        cards[48] = new CardBJ("Туз Трефа", 11);
+        cards[49] = new CardBJ("Туз Черви", 11);
+        cards[50] = new CardBJ("Туз Бубны", 11);
+        cards[51] = new CardBJ("Туз Пики", 11);
